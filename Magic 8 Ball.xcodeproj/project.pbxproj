@@ -14,6 +14,7 @@
 		ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4922B3A4B100DD2BD6 /* Main.storyboard */; };
 		ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */; };
 		ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */; };
+		D8BAB7D129A7A81F00AB16F1 /* aye-aye-sir.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8BAB7D029A7A81F00AB16F1 /* aye-aye-sir.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE1FB4F22B3A4B300DD2BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE1FB5122B3A4B300DD2BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BAB7D029A7A81F00AB16F1 /* aye-aye-sir.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aye-aye-sir.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				ADE1FB4922B3A4B100DD2BD6 /* Main.storyboard */,
 				ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */,
 				ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */,
+				D8BAB7D029A7A81F00AB16F1 /* aye-aye-sir.mp3 */,
 				ADE1FB5122B3A4B300DD2BD6 /* Info.plist */,
 			);
 			path = "Magic 8 Ball";
@@ -97,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = "The App Brewery";
 				TargetAttributes = {
 					ADE1FB3F22B3A4B100DD2BD6 = {
@@ -131,6 +134,7 @@
 				ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */,
 				ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */,
 				AD7D68C622B8EB54009C798B /* README.md in Resources */,
+				D8BAB7D129A7A81F00AB16F1 /* aye-aye-sir.mp3 in Resources */,
 				ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -220,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -256,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -274,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
